@@ -1,6 +1,13 @@
 # Kafka Connect with ksqlDB 
 How to setup Kafka Connect with ksqlDB .. and externalizing secrets
 
+## Startup this project
+
+```
+docker-compose up -d
+```
+
+## Setup database
 
 ```
 cat postgres-setup.sql
@@ -22,7 +29,7 @@ docker-compose exec ksql-cli ksql http://ksql-server:8088
 
 
 ## Bad
-Please don't do this - the password is obvious
+Please **don't** do this - the password is obvious
 
 ```
 CREATE SOURCE CONNECTOR `postgres-jdbc-source` WITH(
