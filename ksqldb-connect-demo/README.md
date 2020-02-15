@@ -1,6 +1,10 @@
 # Kafka Connect with ksqlDB 
 How to setup Kafka Connect with ksqlDB .. and externalizing secrets
 
+
+![Kafka Connect with ksqlDB ](docs/kafka-connect-secrets.png "Kafka Connect with ksqlDB")
+
+
 ## Startup this project
 
 ```
